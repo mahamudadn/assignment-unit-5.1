@@ -16,6 +16,7 @@ const me = {
   lastName: 'Abdi',
 
   hasSiblings: 'true',
+  favoriteColor: 'blue',
 
   shoeCount: 10,
 
@@ -67,3 +68,4 @@ console.log('got one pair of shoes and my current pair of shoes are: ' , me.shoe
   - Console.log your object
 */
 
+console.log('here is my favorite color :', me.favoriteColor);
