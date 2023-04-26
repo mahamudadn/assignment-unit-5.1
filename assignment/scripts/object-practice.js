@@ -53,6 +53,9 @@ console.log('my last favorite food is', me.favThreeFoods[me.favThreeFoods.length
   - Console.log your updated shoe count. 
 */
 
+console.log('my current number of shoes are: ' , me.shoeCount);
+me.shoeCount +=1;
+console.log('got one pair of shoes and my current pair of shoes are: ' , me.shoeCount);
 
 
 
