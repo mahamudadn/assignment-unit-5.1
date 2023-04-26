@@ -18,7 +18,7 @@ const me = {
   hasSiblings: 'true',
 
   shoeCount: 10,
-  
+
   favThreeFoods: ['soor', 'garow', 'burger',]
 
 
@@ -31,6 +31,10 @@ console.log('A little about me:', me);
     created above to set its value. 
   - Console.log fullName
 */
+
+let fullName = me.firstName + ' ' + me.lastName;
+
+console.log('my full name is ' , fullName)
 
 
 /* 3. Nested arrays
