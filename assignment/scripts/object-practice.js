@@ -11,20 +11,14 @@ console.log('***** Object Practice *****')
 const me = {
   // TODO - add properties here
 
-  firstName: 'Mahamud',
-
-  lastName: 'Abdi',
-
-  hasSiblings: 'true',
-  favoriteColor: 'blue',
-
-  shoeCount: 10,
-
-  favThreeFoods: ['soor', 'garow', 'burger',]
-
-
-};
-console.log('A little about me:', me);
+      firstName: 'Mahamud',
+      lastName: 'Abdi',
+      hasSiblings: 'true',
+      favoriteColor: 'blue',
+      shoeCount: 10,
+      favThreeFoods: ['soor', 'garow', 'burger',]
+    };
+    console.log('A little about me:', me);
 
 /* 2. Accessing object properties.
   - Create a variable called fullName 
@@ -33,9 +27,8 @@ console.log('A little about me:', me);
   - Console.log fullName
 */
 
-let fullName = me.firstName + ' ' + me.lastName;
-
-console.log('my full name is ' , fullName)
+    let fullName = me.firstName + ' ' + me.lastName;
+    console.log('my full name is ' , fullName)
 
 
 /* 3. Nested arrays
@@ -43,9 +36,8 @@ console.log('my full name is ' , fullName)
   - Console.log your last favorite food 
 */
 
-console.log('my number one food is', me.favThreeFoods[0]);
-
-console.log('my last favorite food is', me.favThreeFoods[me.favThreeFoods.length - 1]);
+    console.log('my number one food is', me.favThreeFoods[0]);
+    console.log('my last favorite food is', me.favThreeFoods[me.favThreeFoods.length - 1]);
 
 /* 4. Change a property of an existing object.
   - Console.log your current shoe count.
@@ -54,11 +46,9 @@ console.log('my last favorite food is', me.favThreeFoods[me.favThreeFoods.length
   - Console.log your updated shoe count. 
 */
 
-console.log('my current number of shoes are: ' , me.shoeCount);
-me.shoeCount +=1;
-console.log('got one pair of shoes and my current pair of shoes are: ' , me.shoeCount);
-
-
+    console.log('my current number of shoes are: ' , me.shoeCount);
+    me.shoeCount +=1;
+    console.log('got one pair of shoes and my current pair of shoes are: ' , me.shoeCount);
 
 
 /* 5. Add a new property to an existing object.
@@ -68,4 +58,4 @@ console.log('got one pair of shoes and my current pair of shoes are: ' , me.shoe
   - Console.log your object
 */
 
-console.log('here is my favorite color :', me.favoriteColor);
+    console.log('here is my favorite color :', me.favoriteColor);
